@@ -1,0 +1,15 @@
+# Build outputs
+build/
+sdkconfig.old
+
+# IDE and editor configs
+.vscode/
+
+# Temporary and test files
+# *.wav  # 注释掉，允许flash_image/audio/下的WAV文件进入版本控制
+*.pyc
+__pycache__/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

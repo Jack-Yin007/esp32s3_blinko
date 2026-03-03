@@ -1,0 +1,13 @@
+# The protocol between Asrpro with Esp32.
+# When Asrpro received the key words, it will send 
+# command to esp32. The protocol as below.
+
+
+examples：
+Blinko wakeup：
+  $    len   cmd  data  0x0d 0x0A
+ 0x24 0x01 0xA1  0x01  0x0d 0x0A
+
+
+
+

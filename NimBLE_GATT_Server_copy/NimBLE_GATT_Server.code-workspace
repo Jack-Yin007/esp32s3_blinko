@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "idf.espIdfPath": "C:\\Espressif\\frameworks\\esp-idf-v5.5.1",
+    "idf.espIdfPathWin": "C:\\Espressif\\frameworks\\esp-idf-v5.5.1",
+    "idf.pythonBinPath": "C:\\Espressif\\python_env\\idf5.5_py3.11_env\\Scripts\\python.exe",
+    "idf.pythonSystemBinPath": "C:\\Espressif\\python_env\\idf5.5_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPath": "C:\\Espressif",
+    "idf.port": "COM3",
+    "idf.adapterTargetName": "esp32s3"
+  }
+}

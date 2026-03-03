@@ -1,0 +1,76 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=F:\Play\ESP32\esp_idf\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 F:\Play\ESP32\test\blinko\NimBLE_GATT_Server_copy
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig 'F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/sdkconfig'
+-- Found Git: F:/Play/ESP32/esp_idf/Espressif/tools/idf-git/2.44.0/cmd/git.exe (found version "2.44.0.windows.1")
+-- Minimal build - ON
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: F:/Play/ESP32/esp_idf/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: F:/Play/ESP32/esp_idf/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: F:/Play/ESP32/esp_idf/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32s3
+-- Firmware Version: 20260303-main-65bc55
+--   Build Date: 20260303
+--   Git Branch: main
+--   Git Commit: 65bc55
+-- ESP-TEE is currently supported only on the esp32c6;esp32h2;esp32c5 SoCs
+-- Project sdkconfig file F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/sdkconfig
+Loading defaults file F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/sdkconfig.defaults...
+warning: unknown kconfig symbol 'IDF_COMPONENT_MANAGER' assigned to 'n' in F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/sdkconfig.defaults
+Loading defaults file F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/sdkconfig.defaults.esp32s3...
+warning: unknown kconfig symbol 'IDF_COMPONENT_MANAGER' assigned to 'n' in F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/sdkconfig.defaults.esp32s3
+-- Compiler supported targets: xtensa-esp-elf
+-- Found Python3: F:/Play/ESP32/esp_idf/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- USING O3
+-- App "nimble_gatt_server" version: 65bc55e-dirty
+-- Adding linker script F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_50.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_cca.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Firmware Version: 20260303-main-65bc55
+--   Build Date: 20260303
+--   Git Branch: main
+--   Git Commit: 65bc55
+--   [NFC] nfc_storage.c included (file system based)
+--   [CHARGER] cw6116.c included (file system based)
+--   [BLE] ble_ota.c included (OTA firmware update)
+-- ===============================================
+--   Pet Robot Project - 3层架构
+-- ===============================================
+--   固件版本: 20260303-main-65bc55
+--   应用层源文件: pet_main.c;src/pet_config.c;src/version.c;src/app/emotion_manager.c;src/app/action_table.c;src/app/trigger_detector.c;src/app/action_executor.c
+--   驱动层源文件: src/heart_rate_mock.c;src/audio.c;src/adpcm.c;src/log_collector.c;src/fs_service.c;src/self_test.c;src/self_test_trigger.c;src/drivers/gap.c;src/drivers/gatt_svc.c;src/drivers/led_driver.c;src/drivers/heart_rate_sensor.c;src/drivers/touch_sensor.c;src/drivers/pir_sensor.c;src/drivers/led_enhanced.c;src/drivers/vibrator.c;src/drivers/motor.c;src/drivers/servo_motor.c;src/drivers/audio_player.c;src/drivers/i2s_audio.c;src/drivers/playback_test.c;src/drivers/playback_recorder_test.c;src/drivers/max98357a.c;src/drivers/aw9535.c;src/drivers/aw9535_pinmap.c;src/drivers/microphone.c;src/drivers/hardware_interface.c;src/drivers/flash_storage.c;src/drivers/aw9535.c;src/drivers/sd_card.c;src/drivers/indatachange.c;src/drivers/voice_recognition.c;src/nfc_storage.c;src/drivers/cw6116.c
+--   包含目录: ./include;./include/app;./include/drivers;./include/ble
+-- ===============================================
+-- Components: app_update bootloader bootloader_support bt cxx driver efuse esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_bitscrambler esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_twai esp_driver_uart esp_driver_usb_serial_jtag esp_event esp_gdbstub esp_hw_support esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi esptool_py fatfs freertos hal heap log lwip main mbedtls newlib nvs_flash partition_table pthread sdmmc soc spi_flash vfs wear_levelling wpa_supplicant xtensa
+-- Component paths: F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/app_update F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/bootloader F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/bootloader_support F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/bt F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/cxx F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/driver F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/efuse F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_app_format F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_bootloader_format F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_coex F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_common F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_ana_cmpr F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_bitscrambler F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_dac F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_gpio F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_gptimer F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_i2c F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_i2s F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_ledc F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_mcpwm F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_parlio F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_pcnt F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_rmt F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_sdio F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_sdm F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_sdmmc F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_sdspi F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_spi F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_tsens F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_twai F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_uart F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_driver_usb_serial_jtag F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_event F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_gdbstub F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_hw_support F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_mm F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_netif F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_netif_stack F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_partition F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_phy F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_pm F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_ringbuf F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_rom F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_security F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_system F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_timer F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_vfs_console F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esp_wifi F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/esptool_py F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/fatfs F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/freertos F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/hal F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/heap F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/log F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/lwip F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/main F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/mbedtls F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/newlib F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/nvs_flash F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/partition_table F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/pthread F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/sdmmc F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/soc F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/spi_flash F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/vfs F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/wear_levelling F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/wpa_supplicant F:/Play/ESP32/esp_idf/Espressif/frameworks/esp-idf-v5.5.2/components/xtensa
+-- Flash FAT partition image will be generated from flash_image/
+--   - flash_image/audio/ -> /flash/audio
+--   - flash_image/nfc/   -> /flash/nfc
+-- Configuring done (43.3s)
+-- Generating done (3.1s)
+-- Build files have been written to: F:/Play/ESP32/test/blinko/NimBLE_GATT_Server_copy/build
